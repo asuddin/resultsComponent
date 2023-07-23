@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500&display=swap');
+
+body {
+  position: relative;
+  font-size: 0.5rem;
+  font-family: "Hanken Grotesk";
+}
+
+#firstHalf {
+  display: inline-block;
+  text-align: center;
+  height: 400px;
+  width: 300px;
+  border-style: none;
+  border-radius: 20px;
+  background-color: #4936f2;
+  color: white;
+}
+
+#yourresult {
+  color: #cdbfff;
+  font-size: 1rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#seventy {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  height: 10rem;
+  width: 10rem;
+  background-color: #472cde;
+  border-style: none;
+  border-radius: 10rem;
+}
+
+#seventy h1 {
+  width: 100%;
+  font-size: 3rem;
+  margin-bottom: 0px;
+}
+
+#of {
+  margin-top: 0px;
+  margin-bottom: 100px;
+  color: #8376fd;
+}
+
+#great {
+  font-size: 1.5rem;
+  margin-top: 30px;
+}
+
+#txt {
+  margin: 30px 50px;
+  color: #b0aeff;
+  font-weight: lighter;
+}
+
+#secondHalf {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 400px;
+  width: 600px;
+  border-style: none;
+  border-radius: 20px;
+  box-shadow: 10px 10px 100px -80px;
+}
+
+#summary, #categories, #continue {
+  transform: translateX(330px);
+}
+
+#summary {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 1rem;
+}
+
+#categories {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 0.9rem;
+}
+
+#categories li {
+  width: 210px;
+  margin-top: 18px;
+  padding: 10px;
+  border-style: none;
+  border-radius: 10px;
+}
+
+#reaction, #memory, #verbal, #visual {
+  display: flex;
+}
+
+#reaction img, #memory img, #verbal img, #visual img {
+  display: flex;
+  padding-right: 10px;
+}
+
+#reaction {
+  color: #e06a69;
+  background-color: #fff6f5;
+}
+
+#memory {
+  color: #f5b753;
+  background-color: #fffbf2;
+}
+
+#verbal {
+  color: #36a186;
+  background-color: #f2fbfa;
+}
+
+#visual {
+  color: #2c3584;
+  background-color: #f3f3fd;
+}
+
+img {
+  justify-content: center;
+}
+
+#reactionone, #memoryone, #verbalone, #visualone {
+  color: #303b59;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+#reactionH, #memoryH, #verbalH, #visualH {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#continue {
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: lighter;
+  width: 230px;
+  background-color: #303b59;
+  color: white;
+  border-style: none;
+  border-radius: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 15px;
+  cursor: pointer;
+}
